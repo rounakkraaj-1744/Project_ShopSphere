@@ -1,0 +1,34 @@
+# Node.js dependencies
+frontend/node_modules/
+
+# Build outputs
+frontend/.next/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Environment files
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+
+
+# Temporary files and directories
+frontend/.turbo/
+*.log
+*.lock
+*.cache
+.DS_Store
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Docker-related files (if using Docker)
+frontend/.dockerignore
+*.dockerignore
